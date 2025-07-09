@@ -178,3 +178,28 @@ text-align: center;
     text-align: center;
     
 }
+/* footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.footer-input input{
+    margin: 20px;
+    display: block;
+    width: 400px;
+    height: 30px;
+    background-color: white;
+}
+.footer-input textarea{
+    margin: 20px;
+    display: block;
+    width: 400px;
+    height: 30px;
+    background-color: white;
+}
+.footer-input button{
+    margin: 20px;
+    display: block;
+    
+}
