@@ -7,6 +7,9 @@
     "wdth" 100;
 }
 /* shared-style */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .text-primary{
     
     color:#FD6E0A ;
@@ -83,4 +86,38 @@ font-size: 18px;
     justify-content: space-between;
     margin: 0 35px 0 200px;
 }
+ /* main */
+ .main{
+    max-width: 1140px;
+    margin: 0 auto;
+ }
+ .about{
+    border-radius:10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin: 130px;
+ }
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+}
+.section-description{
+    font-size: 18px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.about-item{
+font-size: 18px;
+color: #474747;
+}
+.about-title{
+color: #474747;
+}
+.title-des{
+font-size: 25px;
+font-weight: 700px;
+color: #181818;
 
+}
