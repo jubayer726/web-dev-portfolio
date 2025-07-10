@@ -88,7 +88,7 @@ font-size: 18px;
 }
  /* main */
  .main{
-    max-width: 1140px;
+    max-width: 1240px;
     margin: 0 auto;
  }
  .about{
@@ -181,25 +181,35 @@ text-align: center;
 /* footer */
 .footer{
     display: flex;
+    /* max-width: 1240px; */
     justify-content: center;
-    gap: 20px;
+    gap: 150px;
+    padding: 130px 230px;
+}
+.lets-des{
+
 }
 .footer-input input{
     margin: 20px;
     display: block;
     width: 400px;
     height: 30px;
+    border-radius: 5px;
+    border: none;
     background-color: white;
 }
 .footer-input textarea{
     margin: 20px;
     display: block;
-    width: 400px;
-    height: 30px;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
     background-color: white;
 }
 .footer-input button{
     margin: 20px;
     display: block;
-    
+}
+.footer-icon img{
+    padding: 10px;
 }
